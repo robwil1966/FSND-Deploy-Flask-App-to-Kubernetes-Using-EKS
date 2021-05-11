@@ -69,10 +69,10 @@ Metadata:
       - Label:
           default: GitHub
         Parameters:
-          - GitHubUser
+          - robwil1966
           - GitHubToken
-          - GitSourceRepo
-          - GitBranch
+          - FSND-Deploy-Flask-App-to-Kubernetes-Using-EKS
+          - master
       - Label:
           default: CodeBuild
         Parameters:
@@ -80,11 +80,11 @@ Metadata:
       - Label:
           default: IAM
         Parameters:
-          - KubectlRoleName
+          - UdacityFlaskDeployCBKubectlRole
       - Label:
           default: EKS
         Parameters:
-          - EksClusterName
+          - simple-jwt-api
     ParameterLabels:
       GitHubUser:
         default: Username
